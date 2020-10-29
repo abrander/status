@@ -27,7 +27,8 @@ $ go install github.com/abrander/status
 
 # Usage
 
-`status` can either turn the flag red - or green.
+`status` can either turn the flag red, green og off.
 
 Use `status red` to turn the flag red.
 Use `status green` to turn the flag green.
+Use `status off` to turn the flag off.

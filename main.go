@@ -19,6 +19,8 @@ func main() {
 			err = luxafor.Colour(goluxafor.LedAll, 255, 0, 0, 0)
 		case "green":
 			err = luxafor.Colour(goluxafor.LedAll, 0, 255, 0, 0)
+		case "off":
+			err = luxafor.Colour(goluxafor.LedAll, 0, 0, 0, 0)
 		}
 	}
 
